@@ -7,11 +7,245 @@ tags:
   - Insurance
   - Financial
   - Property & Casualty
-description: 'A Swiss multinational insurance company and one of the world''s largest insurers providing property, casualty, life, and specialty insurance products. Serves customers in over 200 countries including individuals, small businesses, and global corporations.'
+  - Open Insurance
+  - API Platform
+description: 'A Swiss multinational insurance company and one of the world''s largest insurers providing property, casualty, life, and specialty insurance products. Zurich operates a public API platform at exchange.zurich.com (Zurich Exchange / ConnectZ / Zurich Edge) that exposes 30+ internal and external APIs across policy, claims, quoting, partner analytics, procurement, and operations.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: zurich-insurance:connectz-profile-information
+    name: ConnectZ Profile Information API
+    tags:
+      - Customer
+      - Profile
+      - Open Insurance
+      - ConnectZ
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://exchange.zurich.com/
+    properties:
+      - url: https://exchange.zurich.com/
+        type: Documentation
+    description: >-
+      Returns customer profile information for Zurich policyholders through
+      the ConnectZ open insurance framework. Used by partners and aggregators
+      that need normalized customer attributes to support cross-product
+      experiences.
+  - aid: zurich-insurance:connectz-policy-payment-status
+    name: ConnectZ Policy Payment Status API
+    tags:
+      - Policy
+      - Payments
+      - Billing
+      - ConnectZ
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://exchange.zurich.com/
+    properties:
+      - url: https://exchange.zurich.com/
+        type: Documentation
+    description: >-
+      Exposes the payment status of a Zurich insurance policy (paid, due,
+      lapsed) so partners and downstream systems can reconcile billing and
+      surface payment state in their own UX.
+  - aid: zurich-insurance:connectz-claims-retrieval
+    name: ConnectZ Claims Retrieval API
+    tags:
+      - Claims
+      - ConnectZ
+      - Policy
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://exchange.zurich.com/
+    properties:
+      - url: https://exchange.zurich.com/
+        type: Documentation
+    description: >-
+      Retrieves claim records and status for Zurich policies, enabling
+      partners, brokers, and aggregators to display real-time claims
+      information without manual lookup.
+  - aid: zurich-insurance:connectz-agencies-details
+    name: ConnectZ Agencies Details API
+    tags:
+      - Partners
+      - Agencies
+      - Distribution
+      - ConnectZ
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://exchange.zurich.com/
+    properties:
+      - url: https://exchange.zurich.com/
+        type: Documentation
+    description: >-
+      Returns agency / distribution-partner details (name, branch, contact,
+      commercial relationship) used to power partner-management dashboards
+      and partner onboarding.
+  - aid: zurich-insurance:third-party-liability-quote
+    name: Third Party Liability Quote API
+    tags:
+      - Quote
+      - Liability
+      - Sales
+      - Underwriting
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://exchange.zurich.com/
+    properties:
+      - url: https://exchange.zurich.com/
+        type: Documentation
+    description: >-
+      Generates indicative Third Party Liability quotes against Zurich
+      underwriting rules, designed for embedding into partner sales journeys
+      and aggregator quote-and-bind flows.
+  - aid: zurich-insurance:risk-engineering-my-zurich-connector
+    name: Risk Engineering - My Zurich Connector API
+    tags:
+      - Risk Engineering
+      - My Zurich
+      - Commercial Insurance
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://exchange.zurich.com/
+    properties:
+      - url: https://exchange.zurich.com/
+        type: Documentation
+    description: >-
+      Surfaces Risk Engineering data (site surveys, loss prevention, risk
+      grades) from the My Zurich commercial customer portal so partner risk
+      management systems can ingest survey findings in real time without
+      manual cleanup.
+  - aid: zurich-insurance:policy-my-zurich-connector
+    name: Policy - My Zurich Connector API
+    tags:
+      - Policy
+      - My Zurich
+      - Commercial Insurance
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://exchange.zurich.com/
+    properties:
+      - url: https://exchange.zurich.com/
+        type: Documentation
+    description: >-
+      Returns commercial-policy data (cover, limits, sections, endorsements)
+      from the My Zurich portal for ingestion into broker and corporate
+      customer systems.
+  - aid: zurich-insurance:submission-my-zurich-connector
+    name: Submission - My Zurich Connector API
+    tags:
+      - Submission
+      - Underwriting
+      - My Zurich
+      - Commercial Insurance
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://exchange.zurich.com/
+    properties:
+      - url: https://exchange.zurich.com/
+        type: Documentation
+    description: >-
+      Submits new business and renewal submissions into Zurich's commercial
+      underwriting flow from broker management systems via the My Zurich
+      connector.
+  - aid: zurich-insurance:au-document-domain
+    name: AU Document Domain API
+    tags:
+      - Documents
+      - Data Management
+      - Document Processing
+      - Australia
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://exchange.zurich.com/
+    properties:
+      - url: https://exchange.zurich.com/
+        type: Documentation
+    description: >-
+      Document domain service (Australia) for managing, indexing, and
+      retrieving structured document objects across Zurich's Australian
+      operations.
+  - aid: zurich-insurance:coupa-approvals-handling
+    name: Coupa Approvals Handling API
+    tags:
+      - Procurement
+      - Coupa
+      - Approvals
+      - Internal
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://exchange.zurich.com/
+    properties:
+      - url: https://exchange.zurich.com/
+        type: Documentation
+    description: >-
+      Handles invoice, requisition, and contract approvals between Zurich's
+      Coupa procurement platform and downstream finance / approver systems.
+  - aid: zurich-insurance:access-request-management
+    name: Access Request Management (MyAccess) API
+    tags:
+      - Access Management
+      - IAM
+      - Internal
+      - Identity
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://exchange.zurich.com/
+    properties:
+      - url: https://exchange.zurich.com/
+        type: Documentation
+    description: >-
+      Programmatic access to Zurich's MyAccess entitlement-request platform
+      for raising, approving, and tracking access requests across internal
+      systems.
+  - aid: zurich-insurance:servicenow-incidents
+    name: ServiceNow Incidents API
+    tags:
+      - ServiceNow
+      - Incident Management
+      - ITSM
+      - Internal
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://exchange.zurich.com/
+    properties:
+      - url: https://exchange.zurich.com/
+        type: Documentation
+    description: >-
+      Read/write integration with Zurich's ServiceNow Incident Management
+      module for raising, updating, and querying incidents from other
+      systems.
 common:
   - type: Website
     url: https://www.zurich.com/
+  - type: Portal
+    url: https://exchange.zurich.com/
+  - type: Documentation
+    url: https://exchange.zurich.com/
+  - type: Features
+    data:
+      - name: Zurich Exchange API Marketplace
+        description: Central marketplace publishing 30+ internal and external APIs spanning policy, claims, quoting, procurement, and operations
+      - name: ConnectZ Open Insurance Framework
+        description: Open insurance connectivity framework exposing customer profile, policy payment status, claims, and agencies
+      - name: Zurich Edge Platform
+        description: Digital insurance solutions combining innovation and deep insurance expertise into tailored partner offerings
+      - name: My Zurich Connectors
+        description: Connector APIs for policy, submission, and risk engineering data from the My Zurich commercial customer portal
+      - name: Vulnerability Scanning
+        description: All published APIs are subject to vulnerability scanning prior to consumer onboarding
+      - name: Real-Time Data Integration
+        description: Replaces manual data cleansing with automated, real-time feeds into partner systems
+  - type: UseCases
+    data:
+      - name: Partner Risk Management Integration
+        description: Brokers and corporate customers ingest Zurich risk engineering data straight into their risk management systems
+      - name: Embedded Insurance Quoting
+        description: Partner platforms embed Third Party Liability quote generation directly in their sales journeys
+      - name: Policy and Claims Aggregation
+        description: ConnectZ Profile, Policy Payment Status, and Claims Retrieval power policyholder aggregator dashboards
+      - name: Distribution Partner Management
+        description: Agency details API supports partner onboarding and partner-management dashboards
+      - name: Internal Procurement Automation
+        description: Coupa Approvals Handling automates invoice, requisition, and contract approval flows
+      - name: Cross-System Incident Management
+        description: ServiceNow Incidents API enables external systems to raise and track Zurich incidents
+  - type: Integrations
+    data:
+      - name: Coupa
+        description: Procurement approvals handled via the Coupa Approvals Handling API
+      - name: ServiceNow
+        description: Incident management integrated through the ServiceNow Incidents API
+      - name: My Zurich Portal
+        description: Three connector APIs (Policy, Submission, Risk Engineering) bridge the My Zurich commercial portal with broker and corporate systems
+      - name: ConnectZ Partners
+        description: Open insurance partners consume ConnectZ APIs for customer, policy, claims, and agency data
