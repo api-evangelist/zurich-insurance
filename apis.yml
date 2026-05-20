@@ -205,6 +205,10 @@ apis:
       module for raising, updating, and querying incidents from other
       systems.
 common:
+  - type: GitHubOrganization
+    url: https://github.com/ZurichInsurance
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/zurich-insurance-company-ltd
   - type: Website
     url: https://www.zurich.com/
   - type: Portal
