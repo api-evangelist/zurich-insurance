@@ -253,3 +253,6 @@ common:
         description: Three connector APIs (Policy, Submission, Risk Engineering) bridge the My Zurich commercial portal with broker and corporate systems
       - name: ConnectZ Partners
         description: Open insurance partners consume ConnectZ APIs for customer, policy, claims, and agency data
+  - type: DeveloperPortal
+    url: https://api.zurich.com/
+    description: Public developer portal (verified live 2026-05-22)
