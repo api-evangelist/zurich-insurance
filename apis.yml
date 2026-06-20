@@ -2,7 +2,7 @@ aid: zurich-insurance
 url: https://raw.githubusercontent.com/api-evangelist/zurich-insurance/refs/heads/main/apis.yml
 name: Zurich Insurance
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Insurance
   - Financial
@@ -21,7 +21,7 @@ apis:
       - Profile
       - Open Insurance
       - ConnectZ
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://exchange.zurich.com/
     properties:
       - url: https://exchange.zurich.com/
@@ -38,7 +38,7 @@ apis:
       - Payments
       - Billing
       - ConnectZ
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://exchange.zurich.com/
     properties:
       - url: https://exchange.zurich.com/
@@ -53,7 +53,7 @@ apis:
       - Claims
       - ConnectZ
       - Policy
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://exchange.zurich.com/
     properties:
       - url: https://exchange.zurich.com/
@@ -69,7 +69,7 @@ apis:
       - Agencies
       - Distribution
       - ConnectZ
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://exchange.zurich.com/
     properties:
       - url: https://exchange.zurich.com/
@@ -85,7 +85,7 @@ apis:
       - Liability
       - Sales
       - Underwriting
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://exchange.zurich.com/
     properties:
       - url: https://exchange.zurich.com/
@@ -100,7 +100,7 @@ apis:
       - Risk Engineering
       - My Zurich
       - Commercial Insurance
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://exchange.zurich.com/
     properties:
       - url: https://exchange.zurich.com/
@@ -116,7 +116,7 @@ apis:
       - Policy
       - My Zurich
       - Commercial Insurance
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://exchange.zurich.com/
     properties:
       - url: https://exchange.zurich.com/
@@ -132,7 +132,7 @@ apis:
       - Underwriting
       - My Zurich
       - Commercial Insurance
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://exchange.zurich.com/
     properties:
       - url: https://exchange.zurich.com/
@@ -148,7 +148,7 @@ apis:
       - Data Management
       - Document Processing
       - Australia
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://exchange.zurich.com/
     properties:
       - url: https://exchange.zurich.com/
@@ -164,7 +164,7 @@ apis:
       - Coupa
       - Approvals
       - Internal
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://exchange.zurich.com/
     properties:
       - url: https://exchange.zurich.com/
@@ -179,7 +179,7 @@ apis:
       - IAM
       - Internal
       - Identity
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://exchange.zurich.com/
     properties:
       - url: https://exchange.zurich.com/
@@ -195,7 +195,7 @@ apis:
       - Incident Management
       - ITSM
       - Internal
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://exchange.zurich.com/
     properties:
       - url: https://exchange.zurich.com/
