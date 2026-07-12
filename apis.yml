@@ -205,6 +205,8 @@ apis:
       module for raising, updating, and querying incidents from other
       systems.
 common:
+  - type: DomainSecurity
+    url: security/zurich-insurance-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/ZurichInsurance
   - type: LinkedIn
