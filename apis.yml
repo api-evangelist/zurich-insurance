@@ -2,7 +2,18 @@ aid: zurich-insurance
 url: https://raw.githubusercontent.com/api-evangelist/zurich-insurance/refs/heads/main/apis.yml
 name: Zurich Insurance
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zurich-insurance.png
 tags:
   - Insurance
   - Financial
