@@ -17,6 +17,12 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zurich-ins
 tags:
   - Insurance
   - Financial
+  - Property and Casualty
+  - Open Insurance
+  - API Platform
+tags_raw:
+  - Insurance
+  - Financial
   - Property & Casualty
   - Open Insurance
   - API Platform
@@ -28,6 +34,11 @@ apis:
   - aid: zurich-insurance:connectz-profile-information
     name: ConnectZ Profile Information API
     tags:
+      - Customers
+      - Profile
+      - Open Insurance
+      - ConnectZ
+    tags_raw:
       - Customer
       - Profile
       - Open Insurance
@@ -92,6 +103,11 @@ apis:
   - aid: zurich-insurance:third-party-liability-quote
     name: Third Party Liability Quote API
     tags:
+      - Quotes
+      - Liability
+      - Sales
+      - Underwriting
+    tags_raw:
       - Quote
       - Liability
       - Sales
