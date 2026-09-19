@@ -46,7 +46,7 @@ apis:
     name: ConnectZ Profile Information API
     tags:
       - Customers
-      - Profile
+      - Profiles
       - Open Insurance
       - ConnectZ
     tags_raw:
@@ -213,6 +213,11 @@ apis:
   - aid: zurich-insurance:access-request-management
     name: Access Request Management (MyAccess) API
     tags:
+      - Access Management
+      - Identity and Access Management
+      - Internal
+      - Identity
+    tags_raw:
       - Access Management
       - IAM
       - Internal
