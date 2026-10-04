@@ -27,7 +27,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zurich-insurance.png
 tags:
   - Insurance
-  - Financial
+  - Finance
   - Property and Casualty
   - Open Insurance
   - API Platform
