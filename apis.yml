@@ -213,7 +213,6 @@ apis:
   - aid: zurich-insurance:access-request-management
     name: Access Request Management (MyAccess) API
     tags:
-      - Access Management
       - Identity and Access Management
       - Internal
       - Identity
